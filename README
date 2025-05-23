@@ -6,21 +6,38 @@ Consent Form:
 - Users must agree to participate before proceeding.
 - Saves consent status to a CSV file.
 
-Demographic Questionnaire
+Demographic Questionnaire:
 - Gathers name, age, gender, and tech experience level.
 - Uses a combination of text input, dropdowns, and radio buttons.
 - Responses are stored in `data/demographics.csv`.
 
-Task Completion Tracking 
+Task Completion Tracking:
 - Placeholder tasks (modifiable for your project).
 - Users enter feedback after each task.
 - Responses saved in `data/tasks.csv`.
 
-Exit Questionnaire
+Exit Questionnaire:
 - Collects qualitative feedback (e.g., difficulties, suggestions).
 - Saved in `data/exit_feedback.csv`.
 
-Report Tab
+Report Tab:
 - Summarizes collected data across all tabs.
 - Displays tables and basic stats.
 - Future versions may include visual analytics.
+
+
+Setup Instructions:
+
+1. Clone the repository:
+git clone https://github.com/Rauly01/CAP4104-Project1.git
+cd CAP4104-Project1
+
+2. Create and activate a virtual environment:
+python -m venv venv
+source venv/bin/activate
+
+3. Install required packages:
+pip install streamlit pandas
+
+4. Run the Streamlit app:
+streamlit run main.py
