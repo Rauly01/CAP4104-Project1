@@ -1,0 +1,26 @@
+Project 1 - Streamlit Usability Tool - CAP4104
+
+This Streamlit tool allows researchers and designers to conduct usability tests through an interactive web interface. It includes modules for consent, demographic surveys, task tracking, feedback collection, and reporting.
+
+Consent Form:
+- Users must agree to participate before proceeding.
+- Saves consent status to a CSV file.
+
+Demographic Questionnaire
+- Gathers name, age, gender, and tech experience level.
+- Uses a combination of text input, dropdowns, and radio buttons.
+- Responses are stored in `data/demographics.csv`.
+
+Task Completion Tracking 
+- Placeholder tasks (modifiable for your project).
+- Users enter feedback after each task.
+- Responses saved in `data/tasks.csv`.
+
+Exit Questionnaire
+- Collects qualitative feedback (e.g., difficulties, suggestions).
+- Saved in `data/exit_feedback.csv`.
+
+Report Tab
+- Summarizes collected data across all tabs.
+- Displays tables and basic stats.
+- Future versions may include visual analytics.
