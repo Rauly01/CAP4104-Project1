@@ -89,7 +89,6 @@ def main():
                 save_to_csv(data_dict, DEMOGRAPHIC_CSV)
                 st.success("Demographic data saved.")
 
-    # ---------- Tasks ----------
     with tasks:
         st.header("Task Page")
         st.write("Please select a task and record your experience completing it.")
